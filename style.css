@@ -1,0 +1,138 @@
+* {
+    margin:0px;
+    padding:0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    font-size: 16px;
+    background-color: #e6e1e1;
+}
+
+header h1 {
+    font-size: 1.25rem;
+
+    padding-top: 1rem;
+    padding-bottom: 0.25rem;
+    padding-left: 0.75rem;
+
+    font-weight: bold;
+}
+header h2 {
+    font-size: 1rem;
+
+    padding-bottom: 0.75rem;
+    padding-right: 1rem;
+
+    font-weight: normal;
+    text-align: right;
+}
+
+#menu {
+    height: 0px;
+    width: 100%;
+
+    position: absolute;
+}
+ul {
+    list-style:none;
+    font-size: 1rem;
+}
+.nav > li {
+    float:left;
+    align-items: center;
+    width: 25%;
+}
+.nav li a {
+    width: 100%;
+    background-color:rgb(20, 20, 20);
+    color:#fff;
+    text-decoration:none;
+    padding:10px 12px;
+    display:block;
+}
+.nav li a:hover {
+    background-color:#434343;
+}
+
+#instructions {
+    font-size: 1rem;
+
+    padding-top: 1rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+
+    text-justify: justify;
+}
+
+#data_input p,.labels {
+    font-size: 1rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+
+    text-justify: justify;
+}
+.labels {
+    display:inline;
+    margin-top: 0.5rem;
+}
+#data_input #valtotal {
+    width: 75%;
+    height: 1rem;
+
+    margin-left: 1.25rem;
+    margin-top: 0.5rem;
+
+    font-size: 0.9rem;
+
+}
+#data_input #unit_sel {
+    margin-right: 1.25rem;
+    margin-top: 0.5rem;
+
+    font-size: 0.9rem;
+
+    box-sizing: content-box;
+
+    color: #fff;
+    background-color: rgb(20, 20, 20);
+}
+
+#step2 {
+    margin-bottom: 0.5rem;
+}
+#valliq1,#valliq2,#valliq3 {
+    width: 58%;
+    height: 1rem;
+
+    font-size: 0.9rem;
+
+    margin-bottom: 0.25rem;
+}
+
+
+
+
+.error{
+    margin: auto; 
+    width: 80%;
+    background-color: lightgoldenrodyellow;
+    
+    margin-top: 0.7rem;
+    margin-bottom: 0.7rem;
+    
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.error h1 {
+    font-size: 1rem;
+    text-align: center;
+    padding-bottom: 0.25rem;
+}
+
+.error p {
+    font-size: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
